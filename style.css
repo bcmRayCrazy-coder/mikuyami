@@ -1,0 +1,89 @@
+:root {
+    --bg-color: #92f0f2;
+    --primary-color: #067e99;
+    --secondary-color: #d5ffff;
+}
+
+body {
+    background-color: var(--bg-color);
+    margin: 0 0;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* transition: all ease-in-out 0.2s; */
+}
+
+.wrapper {
+    /* background-color: #fff; */
+    width: 230px;
+    /* height: 50vh; */
+}
+
+.wrapper .topbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.wrapper .anim {
+    /* background-color: red; */
+    position: absolute;
+    width: 320px;
+    height: 320px;
+}
+
+.wrapper .btmbar {
+    margin-top: 240px;
+}
+
+.wrapper .btmbar .upper_controller {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.wrapper .btmbar .timebar {
+    margin-top: 26px;
+}
+
+.wrapper .btmbar .timebar .line {
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--secondary-color);
+}
+
+.wrapper .btmbar .timebar .line .rect {
+    height: 100%;
+    width: 12px;
+    border-radius: 2px;
+    background-color: var(--primary-color);
+}
+
+.wrapper .btmbar .timebar .line .round {
+    width: 10px;
+    height: 10px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    transform: translate(-5px, -5px);
+    margin-left: 12px;
+    transition: all ease-in-out 0.2s;
+}
+
+.wrapper .btmbar .timebar .time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .btmbar .timebar .time p {
+    color: var(--primary-color);
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.wrapper .btmbar .bottom_controller {
+    display: flex;
+    justify-content: space-evenly;
+}
