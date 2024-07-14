@@ -13,13 +13,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* transition: all ease-in-out 0.2s; */
+    transition: all ease-in-out 0.2s;
 }
 
 .wrapper {
-    /* background-color: #fff; */
     width: 230px;
-    /* height: 50vh; */
 }
 
 .wrapper .topbar {
