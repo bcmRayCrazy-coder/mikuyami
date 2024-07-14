@@ -29,8 +29,8 @@ body {
 .wrapper .anim {
     /* background-color: red; */
     position: absolute;
-    width: 320px;
-    height: 320px;
+    width: 240px;
+    height: 500px;
 }
 
 .wrapper .btmbar {
